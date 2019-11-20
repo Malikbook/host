@@ -212,83 +212,26 @@ ul li::before {
 
 
 @media screen and (min-width: 576px) {
-    .now_features_wrap {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
-    .now_position {
-        margin-left: -232px;
-        width: 410px;
-    }
-
-    .form_width {
-        max-width: 250px;
-    }
-
-    .footer_position_wrap {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 }
 
 
 @media screen and (min-width: 768px) {
-    .now_features_wrap {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
-    .form_width {
-        min-width: 400px;
-    }
 }
 
 
 @media screen and (min-width: 992px) {
-    .benefits_position {
-        margin-left: 90px;
+    .our_features_list_position {
+        padding-top: 67px;
     }
 
-    .benefits_position_content {
-        max-width: 900px;
-        margin-left: 80px;
+    .our_features_button_position {
+        margin-top: 130px;
     }
 
-    .now_position {
-        margin-left: -60px;
-        margin-right: 70px;
-        width: 330px;
-    }
+    .footer_logo_position {
 
-    .our_margin1 {
-        margin: 0 60px 0 60px;
-    }
-
-    .our_margin2 {
-        margin-right: 60px;
-    }
-
-    .form_width {
-        min-width: 700px;
-    }
-
-    .our_hosting_position {
-        width: 700px;
-        margin-left: 70px;
-    }
-
-    .now_features_wrap {
-        margin-left: -35px;
-    }
-
-    .footer_position_wrap {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
     }
 }
 
