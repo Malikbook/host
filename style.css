@@ -109,9 +109,6 @@ ul li::before {
     font-weight: 800;
 }
 
-/*our hosting*/
-
-
 /*sign up your*/
 
 .fa-envelope2 {
@@ -222,6 +219,8 @@ ul li::before {
 
 
 
+
+
 @media screen and (min-width: 576px) {
 
 }
@@ -247,6 +246,10 @@ ul li::before {
     .team_icon {
         font-size: 15px;
         margin: 0 2px 0 2px;
+    }
+
+    .img_h {
+        max-height: 150px;
     }
 }
 
