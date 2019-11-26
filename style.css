@@ -1,4 +1,7 @@
-/*navigation*/
+/*------------------Home page-----------------*/
+
+/*navigation ----- b*/
+
 
 .navigation {
     background-color: #f6c523;
@@ -116,7 +119,7 @@ ul li::before {
 }
 
 
-/*footer*/
+/*footer ----- b*/
 
 .logo-footer {
     font-size: 25px;
@@ -140,14 +143,22 @@ ul li::before {
 
 
 
+/*-----------------About us page-------------*/
 
+/*about us*/
 
+.bg_image {
+    background-image: url(https://blog.wazza.com.ua/wp-content/uploads/2017/11/Tomasz-Furmanek-7.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+}
 
+/*special offers*/
 
-
-
-
-
+.bg_sky_blue {
+    background-color: #eefbff;
+}
 
 
 
@@ -229,13 +240,22 @@ ul li::before {
     .our_features_button_position {
         margin-top: 130px;
     }
+    .team_width{
+    max-width: 170px;
+    }
 
-    .footer_logo_position {
-
+    .team_icon {
+        font-size: 15px;
+        margin: 0 2px 0 2px;
     }
 }
 
 
 @media screen and (min-width: 1200px) {
-
+    .team_width{
+    max-width: 207px;
+    }
+    .team_icon {
+        font-size: 15px;
+    }
 }
