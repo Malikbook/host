@@ -14,8 +14,8 @@
 
 <body>
 
-    <div class="row mx-0">
-        <header class="row col-12 mx-0 px-0 pt-2 pt-5 d-flex justify-content-around">
+    <div class="container px-0">
+        <header class="row mx-0 px-0 col-12 pt-2 pt-5 d-flex justify-content-around">
 
             <h2 class="logo text-center text-uppercase"><i class="fas fa-cloud text-primary "></i> Hosting</h2>
 
@@ -28,7 +28,7 @@
                 <a class="text-black-50 text-decoration-none pl-2 border-left" href="">Login</a>
             </p>
 
-            <nav class="col-lg-9 w-100 navbar navbar-expand-lg navbar-light bg-warning">
+            <nav class="w-100 navbar navbar-expand-lg navbar-light bg-warning">
                 <a class="navbar-brand text-light" href="#">Navbar</a>
                 <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -37,10 +37,10 @@
 
                 <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
 
-                    <ul class="navbar-nav  nav-list_decor">
+                    <ul class="navbar-nav nav-list_decor">
 
                         <li class="nav-item active mt-n3">
-                            <a class="active px-2 py-2 navigation d-flex flex-nowrap" href="index.html"><small>Home</small></a>
+                            <a class="px-2 py-2 navigation d-flex flex-nowrap" href="index.html"><small>Home</small></a>
                         </li>
                         <li class="nav-item mt-n3">
                             <a class="px-2 py-2 navigation d-flex flex-nowrap" href="about.html"><small>About us</small></a>
@@ -49,7 +49,7 @@
                             <a class="px-2 py-2 navigation d-flex flex-nowrap" href="service.html"><small>Service</small></a>
                         </li>
                         <li class="nav-item mt-n3">
-                            <a class="px-2 py-2 navigation d-flex flex-nowrap" href="hostingplan.html"><small>Hosting Plans</small></a>
+                            <a class="active px-2 py-2 navigation d-flex flex-nowrap" href="hostingplan.html"><small>Hosting Plans</small></a>
                         </li>
                         <li class="nav-item mt-n3">
                             <a class="px-2 py-2 navigation d-flex flex-nowrap" href="domain.html"><small>Domain</small></a>
@@ -76,237 +76,65 @@
         </header>
     </div>
 
-    <!--carousel-->
+    <!--hosting plans-->
 
-    <div class="bd-example ">
-
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-
-            <ol class="carousel-indicators">
-                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active border-indicator rounded-circle"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="1" class="border-indicator rounded-circle"></li>
-                <li data-target="#carouselExampleCaptions" data-slide-to="2" class="border-indicator rounded-circle"></li>
-            </ol>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="https://mirpozitiva.ru/uploads/posts/2016-08/medium/1472042649_11.jpg" class="d-block w-100 carousel-img" alt="">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-uppercase">Awesome Hosting</h5>
-                        <p class="text-uppercase">With unlimited features</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="https://mirpozitiva.ru/uploads/posts/2016-08/1472042791_25.jpg" class="d-block w-100 carousel-img" alt="">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-uppercase">Awesome Hosting</h5>
-                        <p class="text-uppercase">With unlimited features</p>
-                    </div>
-                </div>
-
-                <div class="carousel-item">
-                    <img src="https://mirpozitiva.ru/uploads/posts/2016-08/medium/1472042957_30.jpg" class="d-block w-100 carousel-img" alt="">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5 class="text-uppercase">Awesome Hosting</h5>
-                        <p class="text-uppercase">With unlimited features</p>
-                    </div>
-                </div>
-            </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon border-p-n" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                <span class="carousel-control-next-icon border-p-n" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-
-    <!--form-search-->
-
-    <div class="bd-example pt-3 form_search row mx-0 justify-content-center">
-
-        <form action="" method="post" role="form" class="row col-10 col-md-10 px-0">
-
-                <div class="d-flex col-11 col-md-2 px-0 pr-md-4 mt-2">
-                    <div class="form_text_1">
-                        <i class="fas fa-search d-block"></i><br>
-                        <small class="text-uppercase d-block my-n3 text-black-50">Search Your</small><br>
-                        <b class="text-uppercase form_text_2 d-block mt-n1">Domain</b></div>
-
-                </div>
-
-                <div class="col-11 col-md-4 mt-4 px-0 pr-md-3">
-                    <input type="text" class="form-control" id="validationDefault03" placeholder="Enter your doc. name" required>
-                </div>
-
-                <div class="col-11 col-md-2 mt-4 px-0 pr-md-3">
-                    <select class="form-control">
-                        <option selected>Year (0-1)</option>
-                        <option value="1">0.1 year</option>
-                        <option value="2">0.2 year</option>
-                        <option value="3">0.3 year</option>
-                    </select>
-                </div>
-
-                <div class="col-11 col-md-2 mt-4 px-0 pr-md-3">
-                    <select class="form-control">
-                        <option selected>Com.</option>
-                        <option value="1">.Org</option>
-                        <option value="2">.ua</option>
-                        <option value="3">.html</option>
-                    </select>
-                </div>
-
-                <div class="col-4 col-md-2 my-4 px-0">
-                    <button type="submit" class="btn btn-warning form-control">Search</button>
-                </div>
-
-        </form>
-    </div>
-
-    <!--benefits-->
-
-    <div class="container col-10 col-md-11 px-0">
-
-        <div class="row d-flex justify-content-center mx-0">
-
-            <div class="col-12 col-md-11 mt-5 mb-3 px-0">
-                <i class="fas fa-minus text-warning d-block mb-n1"></i><br>
-                <small class="text-uppercase d-block my-n4 text-black-50">Our</small><br>
-                <b class="text-uppercase form_text_2 d-block mt-n1">Benefits</b>
-            </div>
-
-
-
-                <div class="d-flex row col-12 px-0 justify-content-center mt-3 px-0">
-
-                    <div class="row px-0 px-lg-3 flex-nowrap col-md-4 mb-4">
-                        <i class="fab fa-ioxhost text-warning"></i>
-                        <div class="ml-2">
-                            <b class="mb-1">99.9% UPTIME</b>
-                            <p class="text-black-50">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Modi, natus.</p>
-                        </div>
-                    </div>
-
-                    <div class="row px-0 px-lg-3 flex-nowrap col-md-4 mb-4">
-                        <i class="far fa-comments text-warning"></i>
-                        <div class="ml-2">
-                            <b class="mb-1">24/7/365 SUPPORT</b>
-                            <p class="text-black-50">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Modi, natus.</p>
-                        </div>
-                    </div>
-
-                    <div class="row px-0 px-lg-3 flex-nowrap col-md-4 mb-4">
-                        <i class="fas fa-laptop text-warning"></i>
-                        <div class="ml-2">
-                            <b class="mb-1">PROTECT YOUR PC</b>
-                            <p class="text-black-50">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Modi, natus.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="d-flex row col-12 px-0 justify-content-center mt-3">
-
-                    <div class="row px-0 px-lg-3 flex-nowrap col-md-4 mb-4">
-                        <i class="fas fa-cog text-warning"></i>
-                        <div class="ml-2">
-                            <b class="mb-1">DNS CONTROL</b>
-                            <p class="text-black-50">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Modi, natus.</p>
-                        </div>
-                    </div>
-
-                    <div class="row px-0 px-lg-3 flex-nowrap col-md-4 mb-4">
-                        <i class="fas fa-envelope text-warning"></i>
-                        <div class="ml-2">
-                            <b class="mb-1">DOMAIN TRANSFER</b>
-                            <p class="text-black-50">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Modi, natus.</p>
-                        </div>
-                    </div>
-
-                    <div class="row px-0 px-lg-3 flex-nowrap col-md-4 mb-4">
-                        <i class="fas fa-lock text-warning"></i>
-                        <div class="ml-2">
-                            <b class="mb-1">100% SECURITY</b>
-                            <p class="text-black-50">Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit.<br> Modi, natus.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="container-fluid bg_image3 row mx-0 px-0">
+        <div class="container col-10 px-0 mt-5 px-sm-0 text-light">
+            <h3 class="text-uppercase mb-0">Hosting</h3><br>
+            <p class="text-uppercase my-n4">Plans</p>
         </div>
 
-
-    <!--now-->
-
-    <div class="bd-example d-flex justify-content-center now_bg row mx-0">
-
-        <div class="row col-10 col-md-10 col-lg-10 px-0">
-
-            <div class="col-10 col-md-10 col-lg-6 col-xl-4 px-0 mt-5 mb-3 mr-lg-4">
-
-                <i class="fas fa-minus text-warning d-block mb-n1"></i><br>
-                <small class="text-uppercase d-block my-n4 text-black-50">now</small><br>
-                <b class="text-uppercase form_text_2 d-block mt-n1 mb-3">What is hot</b>
-
-                <div class="col-10 col-md-7 col-lg-12 bg-light p-3 px-4">
-
-                    <small class="text-uppercase now_text_small">get up to</small><br>
-
-                    <div class="d-flex">
-
-                        <b class="text-warning d-block my-n3 now_text_big">50%</b>
-                        <b class="d-block text-primary mx-2 my-n3 now_text_big">off</b>
-
-                        <div class="d-block my-n1">
-                            <small class="text-uppercase text-black-50">Each</small><br>
-                            <b class="text-uppercase d-block mt-n2">Hosting</b>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-
-
-
-            <div class="row col-10 col-md-10 col-lg-8 col-xl-7 mt-5 mb-3">
-
-                <div class="col-12 col-md-10 col-lg-6 px-0">
-                    <i class="fas fa-minus text-warning d-block mb-n1"></i><br>
-                    <small class="text-uppercase d-block my-n4 text-black-50">Our</small><br>
-                    <b class="text-uppercase form_text_2 d-block mt-n1">Features</b>
-
-
-                    <ul class="now_list_decoration mb-0">
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                        <li>Lorem ipsum dolor sit amet.</li>
-                    </ul>
-                </div>
-
-                <ul class="now_list_decoration col-10 col-md-10 col-lg-4 px-0 mt-0 our_features_list_position">
-                    <li>Lorem sit amet.</li>
-                    <li>Lorem sit amet.</li>
-                    <li>Lorem sit amet.</li>
-                    <li>Lorem sit amet.</li>
-                </ul>
-
-                <div class="col-md-3 col-lg-2 pt-3 px-0 our_features_button_position">
-                    <button type="button" class="btn btn-warning text-uppercase d-flex flex-nowrap btn-sm px-4 text-light"><small>View all</small></button>
-                </div>
-
-            </div>
-        </div>
     </div>
 
+    <!--follow steps-->
+
+    <div class="row mx-0 justify-content-center">
+
+        <div class="container col-10 col-md-10 col-lg-10 mt-5 mb-3 px-0 mx-0">
+            <i class="fas fa-minus text-warning d-block mb-n1"></i><br>
+            <small class="text-uppercase d-block my-n4 text-black-50">folow</small><br>
+            <b class="text-uppercase form_text_2 d-block mt-n1">Steps</b>
+        </div>
+
+        <div class="container row col-10 col-md-10 col-lg-10 mt-2 mb-3 px-0 mx-0">
+           <div class="row col-md-6 col-xl-4 px-0 mx-0">
+           <div class="col-2 col-xl-3 px-0">
+            <div class="text-light border px-4 py-3 bg-warning font-weight-bold text-center"><h5 class="mb-0">1</h5></div>
+            </div>
+            <div class="col-8 px-0 ml-3">
+            <h6 class="text-uppercase mt-3">Choose your plan</h6><br>
+            <p class="mt-n4 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni earum nam esse quas debitis adipisci.</p>
+            </div>
+            </div>
+
+            <div class="row col-md-6 col-xl-4 px-xl-2 px-0 mx-0">
+           <div class="col-2 col-xl-3 px-0">
+            <div class="text-light border px-4 py-3 bg-warning font-weight-bold text-center"><h5 class="mb-0">2</h5></div>
+            </div>
+            <div class="col-8 px-0 ml-3">
+            <h6 class="text-uppercase mt-3">Creative your a</h6><br>
+            <p class="mt-n4 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni earum nam esse quas debitis adipisci.</p>
+            </div>
+            </div>
+
+            <div class="row col-md-6 col-xl-4 px-0 mx-0">
+           <div class="col-2 col-xl-3 px-0">
+            <div class="text-light border px-4 py-3 bg-warning font-weight-bold text-center"><h5 class="mb-0">3</h5></div>
+            </div>
+            <div class="col-8 px-0 ml-3">
+            <h6 class="text-uppercase mt-3">Launch your hosting</h6><br>
+            <p class="mt-n4 text-black-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni earum nam esse quas debitis adipisci.</p>
+            </div>
+            </div>
+
+
+        </div>
+
+    </div>
 
     <!--our hosting-->
 
-    <div class="row mx-0 bd-example justify-content-center">
+    <div class="row mx-0 bg_sky_blue justify-content-center">
 
         <div class="col-10 col-md-10 col-lg-10 px-0 mb-5">
 
@@ -438,10 +266,115 @@
             </div>
         </div>
     </div>
+<!--hosting 3 column-->
 
-    <!--sign up your-->
+    <div class="row mx-0 justify-content-center">
 
-    <div class="container-fluid bg_sky_blue row mx-0 px-0 justify-content-center">
+        <div class="col-10 col-md-10 col-lg-10 px-0 mb-5">
+
+            <div class="col-lg-9 px-0 mt-5 mb-3 our_hosting_position mx-0">
+                <i class="fas fa-minus text-warning d-block mb-n1"></i><br>
+                <small class="text-uppercase d-block my-n4 text-black-50">Hosting</small><br>
+                <b class="text-uppercase form_text_2 d-block mt-n1">3 column</b>
+            </div>
+
+            <div class="row mx-0">
+
+                <div class="col-sm-5 col-md-4 col-lg-3 mr-lg-5 text-center mb-3 border-top px-0">
+
+                    <div class="d-flex justify-content-center">
+                        <p class="now_text_big font-weight-lighter mr">$</p>
+                        <b class="now_text_big font-weight-bold">11</b>
+                    </div>
+
+                    <div class="d-block mt-n4">
+                        <small class="text-uppercase">Per month</small>
+                    </div>
+                    <hr>
+
+                    <div class="bg-primary text-uppercase text-light">
+                        <small>Nextgen hosting</small>
+                    </div>
+                    <hr>
+
+                    <div class="text-black-50">
+                        <small>10GB Disk Space</small><br>
+                        <small>1TB Bandwidth</small><br>
+                        <small>Free DDoS Protection</small><br>
+                        <small>Free Daily Backups</small><br>
+                        <small>Managed Hosting</small><br>
+                    </div>
+                    <hr>
+
+                    <a class="btn btn-warning text-uppercase text-light mb-2" href="#" role="button">Sign up</a>
+                </div>
+
+                <div class="col-sm-5 mt-5 mt-sm-0 px-sm-2 col-md-4 col-lg-3 mx-lg-5 text-center mb-3 mx-sm-2 mx-md-0 border-top px-0">
+
+                    <div class="d-flex justify-content-center">
+                        <p class="now_text_big font-weight-lighter mr">$</p>
+                        <b class="now_text_big font-weight-bold">12</b>
+                    </div>
+
+                    <div class="d-block mt-n4">
+                        <small class="text-uppercase">Per month</small>
+                    </div>
+                    <hr>
+
+                    <div class="bg-primary text-uppercase text-light">
+                        <small>Reselleres hosting</small>
+                    </div>
+                    <hr>
+
+                    <div class="text-black-50">
+                        <small>10GB Disk Space</small><br>
+                        <small>1TB Bandwidth</small><br>
+                        <small>Free DDoS Protection</small><br>
+                        <small>Free Daily Backups</small><br>
+                        <small>Managed Hosting</small><br>
+                    </div>
+                    <hr>
+
+                    <a class="btn btn-warning text-uppercase text-light mb-2" href="#" role="button">Sign up</a>
+                </div>
+
+                <div class="col-sm-5 mt-5 col-md-4 col-lg-3 ml-lg-5 mt-md-0 border-top text-center mb-3 px-0">
+
+                    <div class="d-flex justify-content-center">
+                        <p class="now_text_big font-weight-lighter mr">$</p>
+                        <b class="now_text_big font-weight-bold">13</b>
+                    </div>
+
+                    <div class="d-block mt-n4">
+                        <small class="text-uppercase">Per month</small>
+                    </div>
+                    <hr>
+
+                    <div class="bg-primary text-uppercase text-light">
+                        <small>Grid web hosting</small>
+                    </div>
+                    <hr>
+
+                    <div class="text-black-50">
+                        <small>10GB Disk Space</small><br>
+                        <small>1TB Bandwidth</small><br>
+                        <small>Free DDoS Protection</small><br>
+                        <small>Free Daily Backups</small><br>
+                        <small>Managed Hosting</small><br>
+                    </div>
+                    <hr>
+
+                    <a class="btn btn-warning text-uppercase text-light mb-2" href="#" role="button">Sign up</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<!--sign up your-->
+
+    <div class="bg_sky_blue row mx-0 px-0 justify-content-center">
 
         <form action="" method="post" role="form" class="row col-10 col-md-10 col-lg-10 mt-5 mb-3 px-0 pl-sm-0 mx-md-n5">
 
@@ -464,13 +397,14 @@
         </form>
     </div>
 
+
     <!--footer-->
 
     <footer class="bg-secondary py-5 ">
 
         <div class="row mx-0 bd-example justify-content-center">
 
-            <div class="row px-0 col-10 col-lg-10">
+            <div class="row col-10 col-lg-10 px-0">
 
                 <div class="text-light row col-7 col-sm-6 col-lg-3 mb-4 mr-3">
                    <div>

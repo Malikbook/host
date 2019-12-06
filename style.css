@@ -159,6 +159,69 @@ ul li::before {
 
 
 
+/*-----------------Service page-------------*/
+
+.bg_image2 {
+    background-image: url(http://fullhdwallpapers.ru/image/nature/2013/teplye-sumerki.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+}
+
+
+/*--hosting services--*/
+
+.services_icon {
+    font-size: 35px;
+}
+
+.services_icon1 {
+    font-size: 45px;
+}
+
+.services_icon2 {
+    font-size: 53px;
+}
+
+/*--featured servicec-latest news--*/
+
+.border_button {
+    border: 2px #fff;
+    border-radius: 50px;
+    border-style: dotted;
+    height: 80px;
+    width: 80px;
+}
+
+.border_button2 {
+    border: 4px solid rgb(255, 217, 6);
+    border-radius: 50px;
+    height: 87px;
+    width: 87px;
+}
+
+/*-----------------hosting plans page-------------*/
+
+.bg_image3 {
+    background-image: url(http://www.homeworld3.ru/resources/pictures/homeworld-dok/concept-art/aurora_borealis.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+}
+
+
+/*-----------------domain page-------------*/
+
+.bg_imag4 {
+    background-image: url(https://www.myphone.pl/wp-content/uploads/2018/10/karta-produktu_BLADE-2_plastry_044-5-1920x1080.jpg);
+    background-position: top;
+    background-size: cover;
+    min-height: 250px;
+}
+
+
+
+/*-----------------faq page-------------*/
 
 
 
@@ -199,30 +262,10 @@ ul li::before {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 576px) {
-
+@media screen and (max-width: 576px) {
+    .team_icon {
+        font-size: 20px;
+    }
 }
 
 
@@ -239,9 +282,6 @@ ul li::before {
     .our_features_button_position {
         margin-top: 130px;
     }
-    .team_width{
-    max-width: 170px;
-    }
 
     .team_icon {
         font-size: 15px;
@@ -255,9 +295,6 @@ ul li::before {
 
 
 @media screen and (min-width: 1200px) {
-    .team_width{
-    max-width: 207px;
-    }
     .team_icon {
         font-size: 15px;
     }
